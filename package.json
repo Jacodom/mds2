@@ -1,0 +1,28 @@
+{
+  "name": "mds_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch",
+    "dev:watch": "nodemon --exec ts-node src/index.ts",
+    "dev:watch-file": "nodemon --exec ts-node",
+    "watch:poo": "nodemon --exec ts-node src/01_POO/review.ts",
+    "run:poo": "ts-node src/01_POO/review.ts",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

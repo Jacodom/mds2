@@ -1,0 +1,11 @@
+{
+  "watch": ["src/**/*.ts"],
+  "ext": "ts",
+  "ignore": ["node_modules", "dist"],
+  "exec": "ts-node",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "colours": true,
+  "delay": 1000
+}
