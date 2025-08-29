@@ -1,5 +1,4 @@
 export interface Subscriptor {
-  nombre: string;
   notificarSub(video: string): void;
 }
 
