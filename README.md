@@ -31,7 +31,7 @@ mds_2/
 └── README.md                     # Este archivo
 ```
 
-## 🛠️ Configuración Inicial (Para Estudiantes)
+## 🛠️ Configuración Inicial (para estudiantes)
 
 ### 1. Clonar el repositorio
 
